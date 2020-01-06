@@ -1,0 +1,25 @@
+/*Css StyleSheet that is used to control the feel
+of the GUI*/
+/*Root sets style for root of gui*/
+.root{
+	/*Sets Font to "Serif" and background colour to 
+	hex colour*/
+	-fx-font: 12pt "Serif";
+	-fx-background-color: #dedcaf;
+}
+.button{
+	/*Sets background colour and text colour to 
+	white to contrast the darker background*/
+	-fx-background-color: #5c7000;
+	-fx-text-fill: #ffffff;
+}
+.label{
+	-fx-font-size: 11pt;
+}
+.vbox{
+	-fx-background-color: #9e9b4c;
+}
+.popup{
+	-fx-background-color: #ced6de;
+	-fx-border-color: black;
+}
